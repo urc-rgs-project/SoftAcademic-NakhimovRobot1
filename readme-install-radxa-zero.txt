@@ -29,7 +29,7 @@
         sudo nmcli dev wifi connect "wifi_name" password "wifi_password"
 
         (у нас)
-        sudo nmcli dev wifi connect R2D2 password 0987654321
+        sudo nmcli dev wifi connect URC-ROOT password 0987654321
 
         ifconfig
 
@@ -41,7 +41,7 @@
 
     2) установка библиотеки для джойстика
 
-        sudo apt install python3-pip
+        sudo apt -y install python3-pip
 
         sudo pip3 install pygame 
 
@@ -68,6 +68,12 @@
         connect <mac>
  
         trust <mac>
+
+        pair A0:5A:5C:E5:5F:21
+        connect A0:5A:5C:E5:5F:21
+        trust A0:5A:5C:E5:5F:21
+
+
 
     4) включение uart
 
