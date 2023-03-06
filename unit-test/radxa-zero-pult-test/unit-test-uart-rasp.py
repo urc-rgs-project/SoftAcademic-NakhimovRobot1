@@ -83,5 +83,4 @@ test_pult = PULT_SerialPort()
 if __name__ == '__main__':
     while True:
         test_pult.Control_tnpa()
-        print('In', test_pult.Receiver_tnpa())
         sleep(0.5)
