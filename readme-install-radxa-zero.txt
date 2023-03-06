@@ -69,9 +69,9 @@
  
         trust <mac>
 
-        pair A0:5A:5C:E5:5F:21
-        connect A0:5A:5C:E5:5F:21
-        trust A0:5A:5C:E5:5F:21
+        pair A0:5A:5C:FE:F2:4B
+        connect A0:5A:5C:FE:F2:4B
+        trust A0:5A:5C:FE:F2:4B
 
 
 
