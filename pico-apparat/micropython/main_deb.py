@@ -142,12 +142,12 @@ class TNPA_PwmControl:
         print(mass)
         try:
             # установка шим моторов
-            self.pwm_motor_out(self.drk0, mass[0])
+            self.pwm_motor_out(self.drk0, 100 - mass[0])
             self.pwm_motor_out(self.drk1, mass[1])
-            self.pwm_motor_out(self.drk2, mass[2])
-            self.pwm_motor_out(self.drk3, mass[3])
-            self.pwm_motor_out(self.drk4, mass[4])
-            self.pwm_motor_out(self.drk5, mass[5])
+            self.pwm_motor_out(self.drk2, 100 - mass[2])
+            self.pwm_motor_out(self.drk3, 100 - mass[3])
+            self.pwm_motor_out(self.drk4, 100 - mass[4])
+            self.pwm_motor_out(self.drk5, 100 - mass[5])
         except:
             print('error-motor')
             pass
